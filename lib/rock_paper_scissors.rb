@@ -1,7 +1,10 @@
 class String
   define_method(:beats?) do |weapon|
-    if (self == 'rock') && (weapon == 'scissors')
+    wins = { "rock" => "scissors" , "paper" => "rock" , "scissors" => "paper" }
+    if wins.include?(self)
       true
+    else
+      false
     end
   end
 end
