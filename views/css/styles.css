@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  color: purple;
+}
+
+.lead {
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.btn btn-primary btn-lg {
+  color: red;
+}
+
+.jumbotron other-color {
+  background: red;
+}
